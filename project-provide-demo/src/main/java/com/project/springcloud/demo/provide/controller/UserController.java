@@ -1,8 +1,14 @@
 package com.project.springcloud.demo.provide.controller;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.project.springcloud.demo.provide.service.SysUserService;
+import com.project.springcloud.entitys.SysUser;
 
 /**
  * <p>
@@ -15,6 +21,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 public class UserController {
-
+	
+	@Autowired
+	private SysUserService sysUserService;
+	
+	@GetMapping(value="/getUser/{id}")
+	public SysUser getUser(@PathVariable("id") Long id) {
+		return sysUserService.getById(id);
+	}
 }
 

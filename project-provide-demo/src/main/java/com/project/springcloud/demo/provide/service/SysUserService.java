@@ -1,16 +1,16 @@
 package com.project.springcloud.demo.provide.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.project.springcloud.entitys.User;
+import com.project.springcloud.entitys.SysUser;
 
 /**
  * <p>
- * 用户表 服务类
+ * 用户信息表 服务类
  * </p>
  *
  * @author conlon123
- * @since 2019-01-01
+ * @since 2019-01-10
  */
-public interface UserService extends IService<User> {
+public interface SysUserService extends IService<SysUser> {
 
 }

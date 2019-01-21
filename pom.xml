@@ -78,6 +78,7 @@
 	</dependencyManagement>
 
 	<build>
+		<!-- springcloud info当中的 -->
 		<finalName>spring-cloud-project</finalName>
 		<resources>
 			<resource>
@@ -101,5 +102,7 @@
 	<modules>
 		<module>project-api</module>
 		<module>project-provide-demo</module>
+		<module>project-consumer-demo</module>
+		<module>project-eureka-demo</module>
 	</modules>
 </project>
