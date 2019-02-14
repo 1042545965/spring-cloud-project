@@ -23,6 +23,9 @@ import com.project.springcloud.entitys.SysUser;
 public class ConsumerController 
 {
 //	public static final String RESR_URL= "http://127.0.0.1:9000";
+	/**
+	 * 使用自定义的项目名称后 ， 在这里实现了 ribbon
+	 */
 	public static final String RESR_URL= "http://PROJECT-PROVIDE-DEMO";
 	
 	
