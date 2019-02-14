@@ -22,7 +22,9 @@ import com.project.springcloud.entitys.SysUser;
 @RequestMapping("/consumer")
 public class ConsumerController 
 {
-	public static final String RESR_URL= "http://192.168.1.76:9000";
+//	public static final String RESR_URL= "http://127.0.0.1:9000";
+	public static final String RESR_URL= "http://PROJECT-PROVIDE-DEMO";
+	
 	
 	@Autowired
 	private RestTemplate restTemplate;

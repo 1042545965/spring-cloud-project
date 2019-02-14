@@ -7,7 +7,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * 这里是消费者 , 我直接排除数据源启动 , 不然会报错
  * @author dkzadmin
- *
+ * ribbon   配置完成 . 是集成在客户端的工具
+ * 		什么是ribbon : 
+ * 			ribbon  是在客户端器端实现负载均衡额的 , dubbo 和 springcloud 都是采用的本地负载均衡
+ * 		nginx是一款在服务器端实现负载均衡的语言
  */
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
