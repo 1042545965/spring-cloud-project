@@ -104,6 +104,5 @@
 		<module>project-provide-demo</module>
 		<module>project-consumer-demo</module>
 		<module>project-eureka-demo</module>
-        <module>project-feign-demo</module>
     </modules>
 </project>

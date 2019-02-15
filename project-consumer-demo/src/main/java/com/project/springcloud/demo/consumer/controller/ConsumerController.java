@@ -24,9 +24,11 @@ public class ConsumerController
 {
 //	public static final String RESR_URL= "http://127.0.0.1:9000";
 	/**
-	 * 使用自定义的项目名称后 ， 在这里实现了 ribbon
+	 * 使用自定义的项目名称后 ， 在这里实现了 ribbon  project-provide-demo
 	 */
 	public static final String RESR_URL= "http://PROJECT-PROVIDE-DEMO";
+
+//	public static final String RESR_URL= "http://project-provide-demo";
 	
 	
 	@Autowired

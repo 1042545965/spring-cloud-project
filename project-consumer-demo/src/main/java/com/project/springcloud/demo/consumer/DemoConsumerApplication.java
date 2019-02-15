@@ -14,6 +14,9 @@ import org.springframework.context.annotation.ComponentScan;
  * 		什么是ribbon : 
  * 			ribbon  是在客户端器端实现负载均衡额的 , dubbo 和 springcloud 都是采用的本地负载均衡
  * 		nginx是一款在服务器端实现负载均衡的语言
+ * 		EnableFeignClients : 集成feign
+ *                      feign：Feign是一个声明式WebService客户端 Feign旨在使编写java http客户端变得容易。
+ *                      说白了就是让我们任然是面向接口编程 ， 就算是不用也没什么关系
  */
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
