@@ -104,5 +104,6 @@
 		<module>project-provide-demo</module>
 		<module>project-consumer-demo</module>
 		<module>project-eureka-demo</module>
-    </modules>
+		<module>project-zuul-demo</module>
+	</modules>
 </project>
